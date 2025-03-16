@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    background-image: url(../img/banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    z-index: 2;
+}
+
+.banner-backcolor{
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-grad{
+    background: linear-gradient(to left,#ddff9242,#ffffff10, #ffffff05, #ffffff00);
+    z-index: 1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.circle{
+    border: rgba(255, 255, 255, 0.755) 1px solid;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle h1{
+    margin-left: 40px;
+    font-size: 100px;
+    width: 1100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    letter-spacing: 25px;
+}
+.circle h2{
+    color: white;
+    font-size: 28px;
+}
+
+.foot{
+    background-image: url(../img/praia.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding: 90px;
+}
+
+.foot .comfort-message{
+    margin-bottom: 35px;
+    font-size: 24px;
+}
+
+.fot-box{
+    display: flex;
+}
+
+.foot img{    
+    height: 250px;
+}
+
+.fot-contact{
+    margin-left: 40px;
+}
+
+.fot-contact h3{
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.fot-contact p{
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.fot-contact a{
+    text-decoration: none;
+    color: black;
+}
