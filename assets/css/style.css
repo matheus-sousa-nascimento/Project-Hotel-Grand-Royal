@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    background-image: url(../img/banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    z-index: 2;
+}
+
+.banner-backcolor{
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-grad{
+    background: linear-gradient(to left,#ddff9242,#ffffff10, #ffffff05, #ffffff00);
+    z-index: 1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.circle{
+    border: rgba(255, 255, 255, 0.755) 1px solid;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle h1{
+    margin-left: 40px;
+    font-size: 100px;
+    width: 1100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    letter-spacing: 25px;
+    font-family: "Roboto Serif", serif;
+    font-weight: 500;
+}
+.circle h2{
+    color: white;
+    font-size: 26px;
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+}
+
+.container{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 400px;
+}
+
+.card img{
+    width: 400px;
+    height: 250px;
+    border-radius: 25px;
+    border:  2px solid #a2d2fa;
+    margin-bottom: 20px;
+}
+
+.card h3{
+    font-size: 32px;
+    font-family: "Roboto Serif", serif;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.card p{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+.foot{
+    z-index: 2;
+    background-image: url(../img/praia.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding: 90px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.foot .comfort-message{
+    margin-bottom: 35px;
+    font-size: 24px;
+}
+
+.fot-box{
+    display: flex;
+}
+
+.foot img{    
+    height: 250px;
+}
+
+.fot-contact{
+    margin-left: 40px;
+}
+
+.fot-contact h3{
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.fot-contact p{
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.fot-contact a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 1350px){
+    
+    .circle h1{
+        margin-left: 0;
+        font-size: 40px;
+        width: 600px;
+    }
+
+    .card{
+        width: 250px;
+    }
+    
+    .card img{
+        width: 250px;
+    }
+    
+}
+
+
+@media (max-width: 1010px){
+    
+    .circle{
+        height: 450px;
+        width: 450px;
+    }
+
+    .circle h1{
+        width: 500px;
+        font-size: 40px;
+        letter-spacing: 15px;
+    }
+    .circle h2{
+        font-size: 26px;
+    }
+
+    .card{
+        width: 220px;
+    }
+    
+    .card img{
+        width: 220px;
+    }
+    
+
+}
+
+@media (max-width: 800px){
+
+    .circle h1{
+        width: 400px;
+        font-size: 30px;
+        letter-spacing: 15px;
+    }
+
+    .container{
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+        width: 400px;
+        margin-bottom: 30px;
+    }
+
+    .card img{
+        width: 400px;
+    }
+
+    .fot-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fot-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
